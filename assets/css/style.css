@@ -403,12 +403,19 @@ button{ font: inherit; color: inherit; cursor: pointer; }
   display:flex; align-items:center; justify-content:space-between;
   gap:20px; margin-top:24px;
 }
-.carousel-dots{ display:flex; flex-wrap:wrap; gap:8px; }
+/* One line always. On the narrowest phones (under ~350px) nine dots are wider
+   than the column; wrapping stranded the ninth dot on a row of its own, so the
+   dots stay on one line and shrink a little instead. max-width is what makes
+   them shrink: the phone nav centres its children, which otherwise sizes this
+   row to its content and lets it spill past the column. The spacing still
+   clears the WCAG 2.5.8 AA target-size exception at 320px. */
+.carousel-dots{ display:flex; flex-wrap:nowrap; gap:8px; min-width:0; max-width:100%; }
 /* The bar you see is 4px tall, which is nowhere near a usable tap target on a
    phone. The button is sized for the finger and the bar is drawn inside it, so
    the hit area is 44px tall while the design is unchanged. */
 .carousel-dots button{
   width:26px; height:44px; padding:0; border:0; background:none;
+  flex-shrink:1; min-width:12px;
   display:grid; place-items:center; cursor:pointer;
   transition: width .35s var(--ease-out);
 }

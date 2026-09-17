@@ -3,8 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Google tag (gtag.js) : GA4 + Google Ads on one load.
+     Kept directly under charset/viewport so the page view registers even when a
+     paid visitor bounces fast. It is async, so this costs nothing in render time. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4Q3YJM42GR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4Q3YJM42GR');    // GA4 property
+  gtag('config', 'AW-10990978713');  // Google Ads, needed for the conversions below
+</script>
+<!-- Conversion labels and click wiring live in assets/js/main.js (ADS block).
+     Do NOT paste Google's per-conversion snippets here: each one defines the
+     same gtag_report_conversion function, so the second silently overwrites
+     the first and every conversion reports as whichever loaded last. -->
 <title>Paint Protection Film (PPF) in ECR, Chennai | The Detailing Mafia ECR</title>
-<meta name="description" content="Premium PPF installation in ECR, Chennai. Long-lasting protection against scratches, stone chips and UV damage, with a self-healing, high-gloss finish. Get a free PPF quote.">
+<meta name="description" content="Premium PPF installation in ECR, Chennai. Long-lasting protection from scratches, stone chips and UV damage, with a self-healing gloss. Get a free PPF quote.">
 <meta name="theme-color" content="#050505">
 <link rel="canonical" href="https://ppf.thedetailingmafiaecr.com/">
 <link rel="icon" href="assets/img/favicon.png" type="image/png">
@@ -19,25 +35,10 @@
 <meta property="og:image" content="https://ppf.thedetailingmafiaecr.com/assets/img/hero-banner.jpg">
 <meta name="twitter:card" content="summary_large_image">
 
-<!-- Google tag (gtag.js) : GA4 + Google Ads on one load -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4Q3YJM42GR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-4Q3YJM42GR');    // GA4 property
-  gtag('config', 'AW-10990978713');  // Google Ads, needed for the conversions below
-</script>
-<!-- Conversion labels and click wiring live in assets/js/main.js (ADS block).
-     Do NOT paste Google's per-conversion snippets here: each one defines the
-     same gtag_report_conversion function, so the second silently overwrites
-     the first and every conversion reports as whichever loaded last. -->
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=20260916f">
+<link rel="stylesheet" href="assets/css/style.css?v=20260917c">
 <link rel="preload" as="image" type="image/webp" href="assets/img/hero-banner.webp" fetchpriority="high">
 </head>
 <body>
@@ -576,6 +577,6 @@
 
 <!-- ?v= is a cache buster: bump it whenever you edit the CSS or JS, or
      returning visitors keep the old file until their cache expires. -->
-<script src="assets/js/main.js?v=20260916f"></script>
+<script src="assets/js/main.js?v=20260917c"></script>
 </body>
 </html>
