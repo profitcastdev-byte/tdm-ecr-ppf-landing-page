@@ -1,6 +1,6 @@
-# Build output. The deploy zip is regenerated from the files in this repo, so
-# committing it would duplicate every asset in history on each rebuild.
-*.zip
+# The deploy zip IS tracked on purpose, so the latest ready-to-upload bundle can
+# always be downloaded straight from the repo. Rebuild it whenever index.html or
+# anything in assets/ changes, and commit it alongside those changes.
 
 # Personal Claude Code settings (launch.json alongside it is shared and kept)
 .claude/settings.local.json
