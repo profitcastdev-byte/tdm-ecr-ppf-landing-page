@@ -1,0 +1,11 @@
+# Build output. The deploy zip is regenerated from the files in this repo, so
+# committing it would duplicate every asset in history on each rebuild.
+*.zip
+
+# Personal Claude Code settings (launch.json alongside it is shared and kept)
+.claude/settings.local.json
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini

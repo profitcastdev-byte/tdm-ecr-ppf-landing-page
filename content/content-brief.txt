@@ -1,0 +1,127 @@
+THE DETAILING MAFIA ECR : PPF LANDING PAGE
+Source: "ECR LP Content.pdf". Copy below is used verbatim on the page.
+Existing LP: https://www.thedetailingmafiaecr.com/
+
+
+SECTION 1 : HERO
+----------------
+Eyebrow:       Chennai's #1 Car Detailing Studio
+H1:            Paint Protection Film (PPF) in ECR, Chennai
+               Protect Your Car's Paint For Years
+Sub-headline:  Premium PPF installation that shields your car from stone
+               chips, scratches, and Chennai's sun. Done right, the first time.
+
+Bullets:
+  - Long-Lasting Protection Against Scratches, Stone Chips & UV Damage
+  - Expert Installation. No Bubbles, No Edge Lifting, No Shortcuts
+  - Trusted by Car Owners Across ECR & OMR, Chennai
+  (The brief's second bullet, "Self-Healing, High-Gloss Finish That Keeps
+   Your Paint Looking New", was removed on request. The claim still appears
+   in the trust strip and in the Section 2 copy.)
+
+CTAs:          Call Now for a Free PPF Quote  (primary, red)
+               WhatsApp Us Your Car Model     (secondary, outlined)
+
+Note: the brief's mini-form (Name / Phone Number / When do you want to avail
+the service? / Submit Your Details) was removed from the hero on request. The
+hero now converts straight to a call or a WhatsApp chat.
+
+
+SECTION 2 : INTRO
+-----------------
+H2:  Ultimate Paint Protection With PPF In ECR, Chennai
+
+Protect your car's paint with high-quality Paint Protection Film (PPF),
+installed by Chennai's most trusted detailing studio in ECR. Our PPF creates
+an invisible, self-healing shield against scratches, stone chips, road debris,
+and UV damage, so your car stays showroom-fresh for years, no matter what
+Chennai's roads throw at it.
+
+Secondary CTA: Call Now
+
+
+SECTION 3 : WORK IN ACTION
+--------------------------
+Brief: "carousel of real PPF installs. If you have more PPF-specific
+before/after shots than generic detailing shots, lead with those here since
+this page's traffic is PPF-only."
+
+Carousel of the 9 real installs from the main ECR site's "Our Detailing
+Expertise In Action" gallery, ordered to lead with the PPF-specific and luxury
+cars. Three per view on desktop, two on tablet, one on a phone.
+
+  1 Rolls-Royce Ghost   "Full body PPF"
+  2 Aston Martin        "Gloss PPF finish"
+  3 Porsche Cayenne     "Luxury SUV protection"
+  4 BMW X3              "Daily driver, fully wrapped"
+  5 BMW 5 Series        "Edge-to-edge coverage"
+  6 Mercedes GLC        "Bonnet and bumper film"
+  7 Skoda               "Self-healing top coat"
+  8 Mercedes SLC        "Colour kept showroom-fresh"
+  9 Mahindra Thar       "Stone chip protection"
+
+(An interactive before/after slider was built here and then removed on
+request. Section 3 is the carousel alone.)
+
+
+SECTION 4 : WHY ECR CAR OWNERS CHOOSE US FOR PPF
+------------------------------------------------
+Three-icon row:
+  - Highest-Rated PPF Studio in ECR : real results, real reviews
+  - Affordable, Transparent PPF Packages : no hidden costs, honest quotes
+  - Satisfaction Guaranteed, Every Time : precision installation, zero shortcuts
+
+
+SECTION 5 : FAQ
+---------------
+What does PPF cost for a car in Chennai?
+  Depends on your car and coverage. Get a free, no-obligation quote.
+
+What is PPF?
+  A transparent film that protects your car's paint from scratches, chips, and
+  UV damage, with a long-lasting, glossy finish.
+
+Is PPF worth it?
+  Yes. It prevents paint damage that's far costlier to fix later, and helps
+  protect resale value.
+
+Where is your studio located?
+  On ECR, Chennai. Easily accessible from OMR and across the city.
+
+How long does installation take?
+  A few hours for partial coverage, up to a full day for a full wrap.
+
+(The brief's sixth question, "How do I book?", was removed on request.
+ Five questions remain.)
+
+
+SECTION 6 : LOCATION
+--------------------
+Visit Us At Our ECR Studio. Address, opening hours, Get Directions, Call Now,
+embedded map. The hours are shown as one grouped line plus a live open/closed
+status rather than a seven-row table.
+
+Address:  2/632, SH 49 (ECR), opposite Goyal Marble, Neelankarai,
+          Chennai, Tamil Nadu 600115
+Phone:    +91 89257 37773
+Hours:    Tuesday to Sunday, 10:00 AM to 08:00 PM. Closed Monday.
+
+
+SECTION 7 : FINAL CTA BANNER
+----------------------------
+H2:  Your Car Deserves The Best PPF In Chennai
+
+Premium Paint Protection Film, expert installation, and a finish that lasts.
+Protect your paint before the next scratch happens.
+
+CTA button: Call Now for a Free PPF Quote
+
+
+FOOTER KEYWORD CLUSTER (on-page SEO, as the existing site carries it)
+---------------------------------------------------------------------
+ppf chennai / paint protection film chennai / ppf near me / ppf car /
+ppf on car / paint protection film near me / ppf coating / ppf coating for car /
+ppf shops near me / car paint protection film / ppf coating price /
+car paint protection film cost / ppf for car price / ppf cost for car /
+paint protection film cost / ppf price / car ppf near me / 3m ppf /
+3m paint protection film / ppf ecr chennai / ppf omr chennai
