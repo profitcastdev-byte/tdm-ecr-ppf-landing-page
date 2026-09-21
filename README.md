@@ -118,6 +118,11 @@ assets/
                   plus hero-banner.jpg (og:image only) and favicon.png
 content/
   content-brief.txt
+deploy/
+  deploy-kvm.sh   upload to the Profitcast KVM (deploy, --check, --rollback)
+  nginx/          the site's nginx vhost, as written before certbot
+deploy-kvm.cmd    runs deploy-kvm.sh from PowerShell or cmd
+DEPLOYMENT.md
 ```
 
 Sections, in order, matching the brief:
@@ -234,16 +239,23 @@ labelled scroll region reachable by keyboard with arrow keys.
 
 ## Deploying
 
-It is a static site, so any of these work:
+The page is hosted on the **Profitcast KVM**. `DEPLOYMENT.md` covers where it
+lives, the one DNS record the live address still needs, and how the server was
+set up.
 
-```bash
-# quick local preview
-python -m http.server 5178
+Review link: <https://tdmecr-ppf-preview.187.127.149.216.nip.io>
+
+Day to day, from the project root in PowerShell or cmd:
+
+```powershell
+.\deploy-kvm.cmd              # upload, swap in, verify
+.\deploy-kvm.cmd --check      # is the KVM running exactly this page? (changes nothing)
+.\deploy-kvm.cmd --rollback   # put the previous release back
 ```
 
-Upload the folder as-is to Netlify, Vercel, Cloudflare Pages, S3, or any
-shared host. There is nothing to compile.
+Quick local preview: `python -m http.server 5178`.
 
-Before going live, set the real domain in three places in `index.html`:
-`<link rel="canonical">`, `og:url` and `og:image` (Open Graph needs absolute
-URLs or WhatsApp and Facebook previews break).
+The page names its own address in three places in `index.html`:
+`<link rel="canonical">`, `og:url` and `og:image`. They must match the address
+it is served on (Open Graph needs absolute URLs, or WhatsApp and Facebook
+previews break), and the deploy script refuses to upload if they don't.
